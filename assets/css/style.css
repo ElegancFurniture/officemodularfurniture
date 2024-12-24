@@ -2208,3 +2208,21 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(200, 200, 200, 0.5); /* Light gray with 50% transparency */
+  padding: 20px; /* Equal light gray spacing */
+  margin: auto; /* Center the container */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
